@@ -22,3 +22,22 @@ This project helps explore sales by category, revenue, and more with a simple an
 ---
 
 ## 📂 Project Structure
+📦 Sales-analysis-project
+┣ 📜 sales.db # SQLite database file
+┣ 📜 app.py # Main Streamlit app
+┣ 📜 README.md # Project documentation
+┗ 📜 requirements.txt # Dependencies
+
+## ▶️ How to Run the Project
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/dalinaveen/Sales-analysis-project.git
+   cd Sales-analysis-project
+
+python -m venv .venv
+.venv\Scripts\activate   # On Windows
+source .venv/bin/activate   # On Mac/Linux
+pip install -r requirements.txt
+
+streamlit run app.py
